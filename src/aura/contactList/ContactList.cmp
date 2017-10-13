@@ -32,7 +32,7 @@
             <!-- Create a dropdown menu with options -->
             <lightning:select aura:id="select" label="Lead Source" name="source" 
                               onchange="{!c.handleSelect}" class="slds-m-bottom--medium">
-                <option value="">-- Select a Lead Source UPDATED--</option>
+                <option value="">-- Select a Lead Source --</option>
                 <option value="Referral" text="Referral"/>
                 <option value="Social Media" text="Social Media"/>
                 <option value="All" text="All"/>
