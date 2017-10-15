@@ -26,6 +26,7 @@
         </lightning:layout>
     </div>
     
+    
     <!-- Body with dropdown menu and list of contacts -->
     <lightning:layout >
         <lightning:layoutItem padding="horizontal-medium" >
