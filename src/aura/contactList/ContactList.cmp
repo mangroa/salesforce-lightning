@@ -37,6 +37,7 @@
                 <option value="Referral" text="Referral"/>
                 <option value="Social Media" text="Social Media"/>
                 <option value="All" text="All"/>
+                <option value="ANOTHER VALUE" text="ANOTHER VALUE"/>
             </lightning:select>
     
             <!-- Iterate over the list of contacts and display them -->
