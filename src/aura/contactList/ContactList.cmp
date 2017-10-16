@@ -21,7 +21,7 @@
     
         <lightning:layout >
             <lightning:layoutItem >
-                <p class="slds-text-body--small">HELLO WORLD! {!v.totalContacts} Contacts • View Contacts Based on Lead Sources</p>
+                <p class="slds-text-body--small">{!v.totalContacts} Contacts • View Contacts Based on Lead Sources</p>
             </lightning:layoutItem>
         </lightning:layout>
     </div>
