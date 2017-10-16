@@ -86,11 +86,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>ContactController</apexClass>
+        <apexClass>AccountUpdater</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>HelloWorld</apexClass>
+        <apexClass>ContactController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
