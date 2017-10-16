@@ -7,5 +7,6 @@
     <label>LightningApp</label>
     <navType>Standard</navType>
     <tab>ContactListTab</tab>
+    <tab>standard-Account</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>
