@@ -99,10 +99,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-account</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Elabor8__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
