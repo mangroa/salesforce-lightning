@@ -36,6 +36,7 @@
                 <option value="">-- Select a Lead Source --</option>
                 <option value="Referral" text="Referral"/>
                 <option value="Social Media" text="Social Media"/>
+                <option value="New search" text="New search"/>
                 <option value="All" text="All"/>
             </lightning:select>
     
