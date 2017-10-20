@@ -23,6 +23,10 @@
    
 
     <target name="deploy">
-      <sf:deploy username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" rollbackOnError="true"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" rollbackOnError="true" testLevel="RunSpecifiedTests">
+      	<runTest>AccountUpdaterTest</runTest>
+      	<runTest>HelloWorldTest</runTest>
+      	<runTest>ContactControllerTest</runTest>
+      </sf:deploy>
     </target>
   </project>
