@@ -30,7 +30,7 @@
       </sf:deploy>
     </target>
 	
-    <target name="prd-deploy">
+    <target name="uat-deploy">
       <sf:deploy username="${sf.prdusername}" password="${sf.prdpassword}"  serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" rollbackOnError="true" testLevel="RunSpecifiedTests">
       	<runTest>AccountUpdaterTest</runTest>
       	<runTest>HelloWorldTest</runTest>
