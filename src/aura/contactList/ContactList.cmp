@@ -36,7 +36,7 @@
                 <option value="">-- Select a Lead Source --</option>
                 <option value="Referral" text="Referral"/>
                 <option value="Social Media" text="Social Media"/>
-                <option value="TAAAAAHE INTERNET" text="TAAAAHE INTERNET"/>
+                <option value="THE INTERNET" text="THE INTERNET"/>
                 <option value="All" text="All"/>
             </lightning:select>
     
