@@ -13,7 +13,7 @@ private class AccountUpdaterTest {
       AccountUpdater.addHelloWorld(accts);  // call
       
       // Confirm results
-      System.assertEquals('Hello World', accts[0].Description);
+      System.assertEquals('AAAAHello World', accts[0].Description);
       System.assertEquals('Hello World', accts[1].Description);
    }
    
